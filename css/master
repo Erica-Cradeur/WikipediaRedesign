@@ -1,0 +1,123 @@
+/* All */
+*{
+    font-family: "Roboto", sans-serif;
+    width: 70vw;
+    margin: 0 auto;
+    background-color: #d8d3cd;
+}
+
+/* All images */
+img{
+	width:100%;
+	margin: 1vw;
+}
+
+/* All Section Headers */
+h3, h4{
+    font-family: "Noticia Text", serif !important;
+}
+
+/* Glamis Castle Title */
+div.primary-text>h1{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 3rem !important;
+    padding: 1rem;
+    font-size: 5rem;
+    font-family: "Noticia Text", serif;
+    line-height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+/* first paragraph */
+article#lead-text, h3{
+	font-style: italic;
+}
+
+article#small-stub>h4{
+	margin-top: 3vw;
+}
+
+/* paragraphs */
+article#lead-text, p{
+	font-weight: 100;
+    width: 100%;
+    margin: 3vw 0; 
+}
+
+article#small-stub>h3{
+	font-size: 18pt;
+	margin-top: 5vw;
+}
+
+article#small-stub.secondary-text, a{
+	font-weight: 100 !important;
+}
+
+article#lead-text.secondary-text, a{
+	font-weight: 100 !important;
+}
+
+/* image container */
+.aboutImgs{
+    display: flex;
+}
+
+/* column containers */
+.column{
+flex: 50%;
+padding: 5px;
+}
+
+.imagebox{
+    flex: 33.3%;
+    padding: 5px;
+}
+
+.historyImgs{
+    display: flex;
+    float: right;
+}
+
+#castle-img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+}
+
+#map-img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+#castlenight-img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+}
+
+#flower-img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 75%;
+}
+
+/* references and links container */
+#references, #externalLinks{
+    width: 100%;
+    font-style: italic;
+    margin: 3vw 0;
+}
+
+/* links */
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #A55858;
+}
